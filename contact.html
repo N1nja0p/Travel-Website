@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL WEBSITE | CONTACT PAGE</title>
+    <!-- ###########LINKS AND SCRIPTS############## -->
+    <link rel="icon" href="../Travel Website/WT-Athletics-initials.jpeg" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/1893f8dec6.js" crossorigin="anonymous"></script>
+    <script>
+        function showMessage(){
+            alert ("Your Form Has Been Submitted !");
+        }
+    </script>
+</head>
+<body>
+    <!-- ################NAVBAR################ -->
+    <nav class="navbar bg-dark">
+        <div class="container">
+        <h1 class="logo lg-heading">WT</h1>
+        <ul class="nav-items">
+            <li class="nav-item"><a href="./index.html"class="f">Home</a></li>
+            <li class="nav-item"><a href="./about.html"class="f">About</a></li>
+            <li class="nav-item"><a href="./contact.html"class="f">Contact</a></li>
+        </div>
+        </ul>
+    </nav>
+    <!-- ###############FORM################## -->
+    <section class="contact-form">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="company-address">
+                    <div class="address-group">
+                        <i class="fas fa-map-marker-alt fa-3x text-red"></i>
+                        <h2 class="text-gray md-heading">Location</h2>
+                        <p>Aster 101, Manglams Aanada , Sanganer ,Jaipur.</p>
+                    </div>
+                    <div class="address-group">
+                        <i class="far fa-envelope fa-3x text-red" aria-hidden="true"></i>
+                        <h2 class="text-gray md-heading">Email</h2>
+                        <p>speedcuberabhi@gmail.com</p>
+                    </div>
+                    <div class="address-group">
+                        <i class="fas fa-phone-square-alt fa-3x text-red"></i>
+                        <h2 class="text-gray md-heading">Call</h2>
+                        <p>+91 7425949336</p>
+                    </div>
+                    <img src="./img/company-img.jpg" alt="Company Image">
+                </div>
+                <form action="" class="form">
+                    <h1 class="lg-heading text-black">Contact Us</h1>
+                    <p class="text-grey">Let us know your questions, suggestions and concerns by filling out the contact form below</p>
+                    <div class="form-group">
+                        <label for="username">Username<span class="star">*</span></label>
+                        <input type="text" placeholder="Enter Your Username"title="Enter Your Username" name="" id="username"required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email<span class="star">*</span></label>
+                        <input type="email" placeholder="Enter Your Email"title="Enter Your Email" name="" id="username"required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone<span class="star">*</span></label>
+                        <input type="tel" placeholder="Enter Your Phone Number"title="Enter Your Phone Number" name="" id="phone"required>
+                    </div>
+                    <div class="form-group">
+                        
+                        <label for="text">Message<span class="star">*</span></label>
+                        <textarea name="" id="messege"title="Please Leave A Lovely Message" placeholder="Please Leave A Lovely Message"required></textarea>
+                    </div>
+                    <button type="submit" class="form-btn">Submit</button>
+</body>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
